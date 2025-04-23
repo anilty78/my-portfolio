@@ -694,98 +694,46 @@ Currently, I’m expanding my skills in Azure, Kubernetes, CI/CD pipelines, and 
 
     </section><!-- /Testimonials Section -->
 
-    <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/work-1.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Send Message
-                    </h5>
-                  </div>
-                  <div>
-                      <form action="#" method="post">
-                      <div id="sendmessage">Your message has been sent. Thank you!</div>
-                      <div id="errormessage"></div>
-                      <div class="row">
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" required/>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" required/>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <input type="number" class="form-control" name="phone_no" id="phone_no" placeholder="Phone Number" required/>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" required/>
-                              <div class="validation"></div>
-                            </div>
-                        </div>
-                        <div class="col-md-12 mb-3">
-                          <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message" required></textarea>
-                            <div class="validation"></div>
-                          </div>
-                        </div>
-                        <div class="col-md-12">
-                          <input type="submit" class="button button-a button-big button-rouded" value="Send Message">
-                        </div>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="title-box-2 pt-4 pt-md-0">
-                    <h5 class="title-left">
-                      Get in Touch
-                    </h5>
-                  </div>
-                  <div class="more-info">
-                    <ul class="list-ico">
-                      <li><span class="ion-ios-location"></span>Toronto, ON, Canada</li>
-                      <li><span class="ion-ios-telephone"></span>(+1)437 449 9078</li>
-                      <li><span class="ion-email"></span>tyata.anil@gmail.com</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+<!-- Contact Section -->
+<section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-4">
+      <h2>Contact Me</h2>
+      <p class="lead">Have a question or want to work together? Feel free to reach out!</p>
     </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>2023</strong>. All Rights Reserved</p>
-              <div class="credits">
-              </div>
-            </div>
-          </div>
+    
+    <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <label for="name" class="form-label">Your Name</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+        <div class="col-md-6">
+          <label for="email" class="form-label">Your Email</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="col-12">
+          <label for="subject" class="form-label">Subject</label>
+          <input type="text" class="form-control" id="subject" name="subject" required>
+        </div>
+        <div class="col-12">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+        </div>
+        <div class="col-12 text-center">
+          <button type="submit" class="btn btn-primary px-4">Send Message</button>
         </div>
       </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
+    </form>
+
+    <div class="mt-4 text-center">
+      <a href="https://linkedin.com/in/yourusername" target="_blank"><i class="fab fa-linkedin fa-2x me-3"></i></a>
+      <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github fa-2x me-3"></i></a>
+      <a href="mailto:your.email@example.com"><i class="fas fa-envelope fa-2x me-3"></i></a>
+    </div>
+  </div>
+</section>
+
   </main>
 
   <footer id="footer" class="footer position-relative light-background">
